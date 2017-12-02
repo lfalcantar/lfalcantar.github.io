@@ -52,12 +52,17 @@ canvas {
 // NavBar
 nav {
   background: rgba($blue, .6);
+  pointer-events: none;
+
 
   .brand-logo {
-    font-size: 1.5rem;
+		font-size: 1.5rem;
+		pointer-events: auto;
   }
 
 	& ul {
+		pointer-events: auto;
+
   	& a:hover {
 			background-color: rgba(0,0,0,.4);
 		}
@@ -66,6 +71,10 @@ nav {
 			border-bottom: 1px solid;
 		}
 	}
+}
+
+.container {
+	margin-top: 6rem;
 }
 
 @media #{$medium-and-up} {
