@@ -1,10 +1,10 @@
 particlesJS("particles-js", {
   "particles": {
     "number": {
-      "value": 150,
+      "value": 100,
       "density": {
-        "enable": false,
-        "value_area": 800
+        "enable": true,
+        "value_area": 400
       }
     },
     "color": {
@@ -17,7 +17,7 @@ particlesJS("particles-js", {
         "color": "#000000"
       },
       "polygon": {
-        "nb_sides": 10
+        "nb_sides": 5
       },
       "image": {
         "src": "img/github.svg",
@@ -39,7 +39,7 @@ particlesJS("particles-js", {
       "value": 3,
       "random": true,
       "anim": {
-        "enable": false,
+        "enable": true,
         "speed": 40,
         "size_min": 0.1,
         "sync": false
@@ -108,3 +108,8 @@ particlesJS("particles-js", {
   },
   "retina_detect": true
 });
+
+
+$( document ).ready(function(){
+  $(".button-collapse").sideNav();
+})

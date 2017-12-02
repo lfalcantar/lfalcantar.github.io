@@ -3,7 +3,7 @@
 		<!--Import Google Icon Font-->
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<!--Import materialize.css-->
-		<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+ 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 		<!--Let browser know website is optimized for mobile-->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<!-- Custom styling -->
@@ -14,11 +14,40 @@
 			<div id="particles-js"></div>
 		</div>
 
-		<div class="container">
+		<div class="navbar-container">
+			<nav>
+				<div class="nav-wrapper">
+					<a href="#!" class="brand-logo">Luis F Alcantar</a>
+					<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+					<ul class="right hide-on-med-and-down">
+						<li><a href="#about">About</a></li>
+						<li><a href="#interests">Interests</a></li>
+						<li><a href="#skills">Skills</a></li>
+						<li><a href="#projects">Projects</a></li>
+					</ul>
+					<ul class="side-nav" id="mobile-demo">
+						<li><a href="#about">About</a></li>
+						<li><a href="#interests">Interests</a></li>
+						<li><a href="#skills">Skills</a></li>
+						<li><a href="#projects">Projects</a></li>
+					</ul>
+				</div>
+  			</nav>
+		</div>
+
+		<div class="cs-img-container">
 			<img class="cs-profile-image" src="assets/profile.png">
 		</div>
 
+
+		<!-- Import particles and app -->
 		<script src="js/lib/particles.js"></script>
+
+		<!--Import jQuery before materialize.js-->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/lib/materialize.min.js"></script>
+
 		<script src="js/app.js"></script>
+
 	</body>
 </html>
