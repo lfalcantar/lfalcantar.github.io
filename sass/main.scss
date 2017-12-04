@@ -84,6 +84,28 @@ nav {
 	margin-top: 6rem;
 }
 
+.cs-skills-container {
+  ul {
+    columns: 2;
+  }
+}
+
+.cs-left-interests {
+  text-align: center;
+
+  p {
+    font-size: 2rem;
+  }
+}
+
+
+@media #{$small-and-down} {
+  .cs-left-interests {
+    p {
+      margin-bottom: 0;
+    }
+  }
+}
 
 @media #{$medium-and-up} {
   nav {
