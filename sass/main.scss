@@ -98,6 +98,16 @@ nav {
   }
 }
 
+.cs-contact {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  .contact-text {
+    padding-right: .9rem;
+  }
+}
+
 
 @media #{$small-and-down} {
   .cs-left-interests {
