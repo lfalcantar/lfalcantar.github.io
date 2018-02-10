@@ -24,15 +24,6 @@ body {
     background: #333;
 }
 
-a {
-	color: #ccc;
-	text-decoration: none;
-}
-
-a:hover {
-	color: #000;
-}
-
 .codropsheader {
 	width: 100%;
 	margin: 0 auto;
@@ -96,35 +87,15 @@ a:hover {
 	display: block;
 }
 
-.codropsheader nav a {
-	display: inline-block;
-	position: relative;
-	text-align: left;
-	width: 2.5em;
-	height: 2.5em;
-	background: #47a3da;
-	border-radius: 50%;
-	margin: 0 0.1em;
-	border: 3px solid #fff;
+.codropsheader nav i {
+	cursor: pointer;
+	font-size: 44px;
+	padding-right: 15px;
+	color: white;
 }
 
 .codropsheader nav a > span {
 	display: none;
-}
-
-.codropsheader nav a:hover:before {
-	content: attr(data-info);
-	color: #fff;
-	position: absolute;
-	width: 600%;
-	top: 120%;
-	text-align: right;
-	right: 0;
-	pointer-events: none;
-}
-
-.codropsheader nav a:hover {
-	background: #fff;
 }
 
 .bp-icon:after {
