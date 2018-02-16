@@ -1,0 +1,3 @@
+[submodule "jabMediaFitness"]
+	path = jabMediaFitness
+	url = https://github.com/lfalcantar/jabMediaFitness.git
