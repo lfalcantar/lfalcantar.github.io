@@ -23,7 +23,16 @@ body {
     color: #fff;
     background: #333;
 }
-
+.project-desc {
+	p {
+		font-size: 1rem;
+		color: black;
+	}
+	ul {
+		font-size: .8rem;
+		color: initial;
+	}
+}
 .codropsheader {
 	width: 100%;
 	margin: 0 auto;
