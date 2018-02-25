@@ -1,0 +1,27 @@
+{
+  "name": "lfalcantar.github.io",
+  "version": "1.0.0",
+  "description": "Luis Alcantar Website",
+  "main": "index.html",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lfalcantar/lfalcantar.github.io.git"
+  },
+  "author": "lfalcantar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lfalcantar/lfalcantar.github.io/issues"
+  },
+  "homepage": "https://github.com/lfalcantar/lfalcantar.github.io#readme",
+  "devDependencies": {
+    "grunt": "^1.0.2",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-strip-css-comments": "^1.3.0"
+  }
+}
